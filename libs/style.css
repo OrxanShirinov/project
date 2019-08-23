@@ -1,0 +1,262 @@
+body{
+	background-color: #000 !important;
+	color: #fff !important;
+	font-family: 'Montserrat' !important;
+}
+
+h1,h2,h3,h4,h5,h6{
+	padding: 0;
+	margin: 0;
+}
+
+span{
+	color: #FFA07A;
+}
+
+.prev{
+	position: absolute;
+}
+
+ul, li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none !important;
+}
+
+/*Color*/
+
+.red{
+	color: red !important;
+}
+
+.green{
+	color: green !important;
+}
+
+.orange{
+	color: orange !important;
+}
+
+/*Background*/
+
+.bg-red{
+	background-color: red !important;
+}
+
+.bg-green{
+	background-color: green !important;
+}
+
+.bg-orange{
+	background-color: orange !important;
+}
+
+.selected{
+	border: 3px solid purple;
+	border-radius: 10px;
+	padding: 5px;
+	margin: 2px 0;
+}
+
+/*===========*/
+.content-1{
+	padding-bottom: 20px;
+	background-color: #4B0082;
+}
+
+.hover{
+	padding: 5px;
+	height: 100px;
+	text-align: center;
+	padding: 2rem;
+}
+
+input[type="text"]{
+	border-radius: 4px;
+	font-size: 18px;
+	border: 2px solid #B0BEC5;
+}
+
+input[type="text"]:hover, input[type="text"]:focus{
+	outline: none;
+}
+
+.focus{
+	border: 2px solid #1565c0 !important;
+	box-shadow: 0px 1px 25px #64b6f6;
+}
+
+/*========*/
+
+.content-2{
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.display{
+	width: 100%;
+	height: 200px;
+	background-color: indigo;
+}
+
+#dis-p{
+	text-align: center;
+	line-height: 200px;
+}
+
+.display-2{
+	width: 100%;
+	height: 200px;
+	background-color: purple;
+}
+/*==== btn*/
+
+.btn{
+	margin-bottom: 10px;
+}
+
+
+#animation{
+	margin: 50px 0;
+}
+
+/*=======*/
+
+#calc{
+	margin: 60px 0;
+}
+
+.num{
+	background-color: #008B8B;
+	padding: 10px;
+	left: -15px;
+}
+
+.sum{
+	background-color: indigo;
+	right: -15px;
+}
+
+#bike{
+	margin-top: 50px;
+	margin-bottom: 100px;
+	background: url('../img/bike.jpeg') no-repeat center;
+	background-size: cover;
+	height: 600px;
+ 	box-shadow: 1px 5px 20px rgba(207, 0, 15, 1);
+}
+
+.row-1{
+	height: 500px;
+}
+
+
+.img{
+	width: 700px;
+	position: absolute;
+}
+#colorsSelector{
+	margin-top: 60px;
+}
+
+.colorItem{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	border-radius: 100px;
+	margin: 15px;
+	border: 3px outset indigo;
+ 	box-shadow: 1px 1px 10px rgba(207, 0, 15, 1);
+	cursor: pointer;
+}
+
+.colorItem:hover{
+	opacity: .6;
+ 	transition: ease-out .3s;
+ 	box-shadow: 1px 1px 5px rgba(255,255,255, 0.3);
+}
+
+
+.colorBlue{
+	background-color: blue;
+}
+
+.colorWhite{
+	background-color: white;
+}
+
+.colorYellow{
+	background-color: yellow;
+}
+
+.colorBlack{
+	background-color: black;
+}
+
+.colorGreen{
+	background-color: green;
+}
+
+/*==================*/
+
+
+.greenBorder{
+	border: 3px outset green;
+	min-height: 50px;
+	padding: 10px;
+}
+
+.indigoBorder{
+	border: 3px outset indigo;
+	min-height: 50px;
+	padding: 10px;
+}
+
+#testbox-2{
+	border: 3px outset indigo;
+	min-height: 50px;
+	padding: 10px;
+}
+
+#clone{
+	background-color: #4B0082;
+	min-height: 50px;
+	padding: 10px;
+}
+
+
+/*NEW*/ /*==============================================*/
+
+#img{
+	width: 300px;
+}
+
+
+/*Animation cub*/
+
+/*#cub:hover{
+	font-size: 34px;
+	border: 2px dashed aqua;
+	box-shadow: 2px 2px 20px rgb(217, 30, 24);
+	transform: rotateZ(360deg); x 
+ 	transform: scale(1.5);x
+	cursor: pointer;
+	border-radius: 50%;
+}
+*/
+
+
+/*#cub:hover{
+	font-size: 34px;
+	border: 2px dashed aqua;
+	box-shadow: 2px 2px 20px rgb(217, 30, 24);
+	transform: rotateZ(360deg); x 
+ 	transform: scale(1.5);x
+	cursor: pointer;
+	border-radius: 50%;
+}
+
+
+*/

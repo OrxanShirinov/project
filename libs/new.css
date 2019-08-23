@@ -1,0 +1,215 @@
+body{
+	background-color: #000 !important;
+	color: #fff !important;
+	font-family: 'Montserrat' !important;
+}
+
+h1,h2,h3,h4,h5,h6{
+	padding: 0;
+	margin: 0;
+	color: #20B2AA !important;
+}
+
+
+span{
+	color: #FFA07A;
+}
+
+ul, li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none !important;
+}
+
+/*Block*/
+.selected{
+	border: 3px solid purple;
+	border-radius: 10px;
+	padding: 5px;
+	margin: 2px 0;
+}
+
+.focus{
+	border: 2px solid #1565c0 !important;
+	box-shadow: 0px 1px 25px #64b6f6;
+}
+
+/*Color*/
+
+.red{
+	color: red !important;
+}
+
+.green{
+	color: green !important;
+}
+
+.blue{
+	color: blue !important;
+}
+
+.aqua{
+	color: aqua !important;
+}
+
+.indigo{
+	color: indigo !important;
+}
+
+.yellow{
+	color: yellow !important;
+}
+
+.orange{
+	color: orange !important;
+}
+
+/*Background*/
+.colorRed{
+	background-color: red;
+}
+
+.colorOrange{
+	background-color: orange;
+}
+
+.colorBlue{
+	background-color: blue;
+}
+
+.colorWhite{
+	background-color: white;
+}
+
+.colorYellow{
+	background-color: yellow;
+}
+
+.colorBlack{
+	background-color: black;
+}
+
+.colorGreen{
+	background-color: green;
+}
+
+/*=====Border=============*/
+.redBorder{
+	border: 3px outset red;
+	min-height: 50px;
+	padding: 10px;
+}
+
+.aquaBorder{
+	border: 3px outset aqua;
+	min-height: 50px;
+	padding: 10px;
+}
+
+.greenBorder{
+	border: 3px outset green;
+	min-height: 50px;
+	padding: 10px;
+}
+
+.indigoBorder{
+	border: 3px outset indigo;
+	min-height: 50px;
+	padding: 10px;
+}
+
+.orangeBorder{
+	border: 3px outset orange;
+	min-height: 50px;
+	padding: 10px;
+}
+
+/*CUB*/
+#cub{
+	width: 100px;
+	height: 100px;
+	background-color: indigo;
+	color: red;
+	line-height: 100px;
+	text-align: center;
+	font-size: 18px;
+	box-shadow: 2px 2px 10px rgb(25, 181, 254);
+	transition: 0.5s;
+	border: 1px dashed aqua;
+}
+
+#cub:hover{
+	color: aqua;
+	border: 1px dashed red;
+	box-shadow: 2px 2px 20px rgb(217, 30, 24);
+	/*transform: rotateZ(720deg); */
+	transform: scale(0.9);
+	cursor: pointer;
+}
+
+/*============*/
+
+#cub-2{
+	margin: 20px 0;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	background-color: indigo;
+	color: aqua;
+	border: 1px dashed aqua;
+	box-shadow: 2px 2px 10px rgb(25, 181, 254);
+	font-size: 20px;
+	/*transition: .5s;*/
+}
+
+#cub-2:hover{
+	color: red;
+	border: 1px dashed red;
+	box-shadow: 2px 2px 20px rgb(217, 30, 24);
+	transform: rotateZ(720deg); 
+	cursor: pointer;
+}
+
+.img{
+	width: 400px;
+	display: block;
+}
+
+
+.block{
+	background-color: indigo;
+	color: aqua;
+	border: 1px dashed red;
+	box-shadow: 2px 2px 10px rgb(25, 181, 254);
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	display: inline-block;
+	margin: 0 30px;
+	transition: .5s;
+}
+
+.block:hover{
+	color: red;
+	border: 1px dashed red;
+	box-shadow: 2px 2px 20px rgb(217, 30, 24);
+	/*transform: scale(0.9);*/
+	cursor: pointer;
+
+}
+
+
+#box{
+	width: 250px;
+	height: 150px;
+	padding: 10px;
+	border: 1px dashed red;
+	box-shadow: 2px 2px 20px rgb(217, 30, 24);
+	position: relative;
+	overflow: auto;
+}
+
